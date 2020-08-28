@@ -1,60 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/css/second.css">
-    <title>Tarah McElyea</title>
-</head>
-<body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="assets/images/profile-pic.jpg">
-            <h2>Tarah McElyea</h2>
-            <p>Chicago, IL</p>
-            <a href="#"><i class="fab fa-linkedIn"></i></a>
-            <a href="#"><i class="fab fa-github white"></i></a>
-        </div>
-        <div class="section-2">
-            <div class="about-me">
-            <h2>About Me</h2>
-            <p>I am a bartender turned web developer with great attention to detail and an eye for different designs. I do my best to stay on top of the changes in web development so that I may finish projects with the best tools available.</p>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tarah McElyea</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top navStart">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="linkToAbout">
+                            <a href="#" class="hidden-xs navLinkStart navLink">ABOUT<span class="sr-only">(current)</span></a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">ABOUT<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="linkToPortfolio">
+                            <a href="#" class="hidden-xs navLinkStart navLink">PORTFOLIO</a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">PORTFOLIO</a>
+                        </li>
+                        <li class="linkToContact">
+                            <a href="#" class="hidden-xs navLinkStart navLink">CONTACT</a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-xs-2">
-                <a href="https://github.com/tmcelyea93/run-buddy">Run Buddy</a>
+        </nav>
+        <main id="main">
+            <div class="wrapLandingPage">
+                <div class="row" id="landingPage">
                 </div>
-                <div class="col-auto">
-                <a href="https://github.com/Christian-Vavuris/Trip-Planner">Vacation Planner (Collaborative Project)</a>
+                <div class="row welcome">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div>
+                            <p>Tarah McElyea's Professional Portfolio</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-              <div class="row">
-                <div class="col-auto">
-                  Project 3
+            <div id="wrapAboutPortfolioContact">
+                <div class="row" id="aboutTitle">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>ABOUT</h2>
+                    </div>
                 </div>
-                <div class="col-xs-4">
-                  Project 4
+                <div class="row imageName">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <img src="images/profileImage2.jpg" class="profileImage">
+                        <div class="nameCareer">
+                            <h3 class="name">Tarah McElyea</h3>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-auto">
-                  Project 5
+                <div class="row aboutText">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p>I am a bartender turned web developer with great attention to detail and an eye for different designs. I do my best to stay on top of the changes in web development so that I may finish projects with the best tools available.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-4 col-xs-offset-2">
-                  Project 6
+                <div class="row skillBox">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3>Skills</h3>
+                        <ul class="skillImageDiv">
+                            <li class="imageList">
+                                <img src="images/HTML5_logo.png" class="imageSkill">
+                            </li>
+                            <li class="imageList">
+                                <img src="images/CSS3_logo.png" class="imageSkill imageSkillCss" data-wow="1s">
+                            </li>
+                            <li class="imageList">
+                                <img src="images/javascript_logo.png" class="imageSkill" data-wow="2s">
+                            </li>
+                            <li class="imageList">
+                                <img src="images/jquery_logo.png" class="imageSkill" data-wow="3s">
+                            </li>
+                            <li class="imageList">
+                                <img src="images/node.png" class="imageSkill" data-wow="4s">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-auto">
-                  Project 7
+                <div class="row portfolioTitle">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>PORTFOLIO</h2>
+                    </div>
                 </div>
-              </div>
-            <h2>Contact</h2>
-            <p>tarahmcelyea@gmail.com</p>
-            <p>913-475-7643</p>
-        </div>
-    </div>
-</body>
+                <div class="row portfolioWrap">
+                    <div class="col-lg-12 col-sm-12 col-xs-12 VacationBox">
+                        <a href="http://glacial-hollows-48767.herokuapp.com/" target="_blank">
+                            <img src="images/vacation.png" class="VacationImage" data-wow-duration="1s">
+                        </a>
+                        <h3>Vacation Planner</h3>
+                        <div class="portfolioText">
+                            <p>This was a collaborative project that I completed with my classmates. In this project we used html, css, server-side API, and plenty of javascript.</p>
+                            <div class="buttonLink">
+                                <a href="https://github.com/Christian-Vavuris/Trip-Planner" target="_blank" class="link linkGithub">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contactWrap">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contactTitle">
+                            <h2>CONTACT</h2>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                            <a href="https://github.com/tmcelyea93" target="_blank"><img src="images/githubBlack.png" class="icon githubIcon"></a>
+                            <a href="https://www.linkedin.com/in/tugman/" target="_blank"><img src="images/linkedin.png" class="icon linkedin"></a>
+                            <a href="mailto:tarahmcelyea@gmail.com"><img src="images/mail.png" class="icon mail"></a>
+                        </div>
+                    </div>
+                </div>
+                <footer class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p><img src="images/copyrightBlack.png" class="copyright"> 2020 <span class="devide">|</span> Tarah McElyea</p>
+                    </div>
+                </footer>
+            </div>
+        </main>
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="index.js"></script>
+
+    </body>
 </html>

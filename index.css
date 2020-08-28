@@ -1,0 +1,549 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 145%;
+    color: black;
+    font-size: 17px;
+}
+
+h1, h2, h3 {
+    color: black;
+    font-weight: bold;
+}
+
+a:focus {
+    color: #006bb3;
+    text-decoration: none;
+}
+
+.active {
+    color: black;
+    font-size: 15px;
+}
+
+.navStart {
+    /*background: url(images/clt.jpg) fixed no-repeat;*/
+    background: url(images/clt.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: none;
+    margin: 0;
+    background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+    ),
+    url(images/clt.jpg);
+}
+
+.navScrolled {
+    background-color: #000033;
+}
+
+.navLinkScrolled {
+    color: white;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #000033 !important;
+    border-top: 5px solid #000033 !important;
+    padding-bottom: 9px !important;
+    padding-top: 10px !important;
+}
+
+.navLinkStart {
+    color: white;
+    border-top: 5px solid transparent !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding-bottom: 9px !important;
+    padding-top: 10px !important;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.navLinkStart:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.navLinkStart:focus {
+    color: #f7cd79;
+    background-color: transparent !important;
+}
+
+.navLinkScrolled:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.navLinkScrolled:focus {
+    color: #f7cd79;
+    background-color: transparent !important;
+}
+
+.activeStart {
+    color: white ;
+    background-color: transparent !important;
+    font-size: 16px !important;
+}
+
+.activeScrolled {
+    background-color: #000033;
+    color: white;
+    font-size: 16px !important;
+}
+
+.activeScrolled:hover, .activeScrolled:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+.activeStart:hover, .activeStart:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+    width: 20px;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: none;
+}
+
+.wrapLandingPage {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#landingPage {
+    background: url(images/clt.jpeg) fixed no-repeat;
+    background-size: cover;
+    height: 705px;
+    margin: 0;
+    overflow: hidden;
+    background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+    ),
+    url(images/clt.jpeg);
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.welcome > div > div {
+    position: fixed;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translatey(-50%);
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.welcome > div > div > p:nth-child(1) {
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.welcome > div > div > p:nth-child(2) {
+    color: white;
+    font-size: 25px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.welcome > div > p {
+    position: fixed;
+    top: 89%;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px #000000;
+    background: rgba(0, 0, 0, 0.2);
+    left: 50%;
+    transform: translateX(-50%) translatey(-50%);
+}
+
+.welcome .scrollIcon {
+    position: fixed;
+    width: 27px;
+    top: 95.5%;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%) translatey(-50%);
+    text-shadow: 2px 2px 4px #000000;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#aboutTitle {
+    text-align: center;
+}
+
+#aboutTitle > div {
+    background-color: #000033;
+}
+
+#aboutTitle > div > h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.imageName {
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 40px;
+    margin-top: 35px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#wrapAboutPortfolioContact {
+    position: absolute;
+    top: 705px;
+    background-color: white;
+}
+
+.aboutText {
+    position: relative;
+    width: 65%;
+    left: 52%;
+    transform: translatex(-50%);
+    background-color: white;
+}
+
+.profileImage {
+    max-width: 360px;
+    border-radius: 50%;
+    margin-top: 70px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skillBox {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.skillBox > div > h3 {
+    font-weight: bold;
+}
+
+.skillBox > div {
+    margin-top: 30px;
+}
+
+.skillImageDiv {
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skillImageDiv > li > p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.imageList {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imageSkill {
+    max-width: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imageSkillCss {
+    max-width: 25px;
+}
+
+.portfolioTitle {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.portfolioTitle > div {
+    margin-top: 60px;
+    background-color: #000033;
+}
+
+.portfolioTitle > div > h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.row {
+    margin: 0;
+}
+
+.portfolioWrap {
+    text-align: center;
+    background-color: white; /*#9eaf82*/
+}
+
+.portfolioWrap > div > h2 {
+    font-weight: bold;
+}
+
+.portfolioText {
+    position: relative;
+    width: 60%;
+    text-align: left;
+    margin-top: 30px;
+    left: 52%;
+    transform: translatex(-50%);
+}
+
+.VacationBox {
+    padding-top: 80px;
+}
+
+.VacationImage {
+    width: 55%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.MovieGameBox {
+    padding-top: 80px;
+    border-top: 1px solid #bad39e;
+    background-color: white; /*#F7F7DB #dbda95*/
+}
+
+.MovieGameImage {
+    width: 55%;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ThirdProjectBox {
+    text-align: center;
+    padding-top: 80px;
+    border-top: 1px solid #bad39e;
+    background-color: white; /*#F7F7DB #dbda95*/
+}
+
+.ThirdProjectImage {
+    width: 60%;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #006bb3;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-bottom: 70px;
+    height: 35px;
+    left: 40%;
+    transform: translatex(-50%);
+}
+
+.linkLive {
+    width: 53px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkGithub {
+    width: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkLive:hover, .linkGithub:hover {
+    text-decoration: none;
+    color: #006bb3;
+    cursor: pointer;
+    border-bottom: 2px solid #006bb3;
+}
+
+#contactWrap {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contactTitle {
+    background-color: #000033;
+}
+
+.contactTitle > h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.icon {
+    width: 37px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.githubIcon {
+    width: 39px;
+}
+
+.icon:hover, .resumeIcon:hover {
+    transform: scale(1.15);
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.linkResume {
+    display: block;
+    margin-top: 110px;
+}
+
+.resumeIcon {
+    width: 50px;
+}
+
+.resume > p {
+    font-size: 15px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer > div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid lightgrey;
+}
+
+footer > div > p {
+    color: #000033;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.copyright {
+    width: 15px;
+    padding-bottom: 2px;
+}
+
+
+@media (max-width: 500px) {
+    p {
+        font-size: 16px;
+    }
+    .wrapLandingPage {
+        width: 100%;
+    }
+    #landingPage > div > h1 {
+        font-size: 26px;
+    }
+    .welcome > div > div {
+        width: 90%;
+    }
+    .welcome > div > div > p:nth-child(1) {
+        font-size: 22px;
+    }
+    .welcome > div > div > p:nth-child(2) {
+        font-size: 18px;
+    }
+    .portfolioPage > div > img {
+        max-width: 318px;
+    }
+    .aboutText {
+        width: 93%;
+    }
+    .skillBox {
+        width: 100%;
+    }
+    .imageSkill {
+        width: 32px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .imageSkillCss {
+        width: 23px;
+    }
+    .imageList {
+        margin: 0;
+    }
+    .portfolioText {
+        width: 90%;
+    }
+    .ArcadeImage, .MovieGameImage, .ThirdProjectImage {
+        width: 90%;
+    }
+    .link {
+        left: 32%;
+    }
+
+}
+
+@media (min-width: 510px) and (max-width: 1190px) {
+    .portfolioBox {
+        border-top: 1px solid #f2eeed;
+        height: 720px;
+    }
+    .portfolioBox > h3 {
+        margin-top: 50px;
+    }
+    .welcome > div > div {
+        width: 55%;
+    }
+    .welcome > div > div > p:nth-child(1) {
+        font-size: 28px;
+    }
+    .welcome > div > div > p:nth-child(2) {
+        font-size: 20px;
+    }
+
+}
